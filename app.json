@@ -1,0 +1,19 @@
+{
+  "name": "Blogged",
+  "description": "A sample Blog app",
+  "repository": "https://github.com/arunnK/blogged",
+  "logo": "",
+  "keywords": ["node", "express", "React", "React.js", "React", "Redux", "JavaScript", "MongoDB", "jwt"],
+  "image": "",
+  "env": {
+  	"NODE_ENV": {
+  		"description": "Node environment",
+  		"value": "production"
+  	},
+    "JWT_SECRET": {
+      "description": "A secret string to generate JWT tokens (REQUIRED)",
+      "value":""
+    }
+  },
+  "addons": ["mongolab", "sendgrid:starter"]
+}
